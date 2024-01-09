@@ -57,6 +57,7 @@ public class Main {
     // Esercizio 2
     public static String trasformaNumeroInLettere(byte numeroUnoDueTre) {
         return switch (numeroUnoDueTre) {
+            case 0 -> "è: zero";
             case 1 -> "è: uno";
             case 2 -> "è: due";
             case 3 -> "è: tre";
